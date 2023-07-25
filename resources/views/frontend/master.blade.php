@@ -37,7 +37,7 @@
             <div class="header-area ">
                 <!--logo-->
                 <div class="logo">
-                    <a href="index.html">
+                    <a href="{{ route('index') }}">
                         <img src="{{ asset('frontend_assets/img/logo/logo-dark.png')}}" alt="" class="logo-dark">
                         <img src="{{ asset('frontend_assets/img/logo/logo-white.png')}}" alt="" class="logo-white">
                     </a>
